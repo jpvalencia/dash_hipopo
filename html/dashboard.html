@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hipotecario Facil</title>
+		<link href="../css/hipotecario-facil.min.css" rel="stylesheet">
+		<link href="../css/dashboard.min.css" rel="stylesheet">
+		<!-- <link href="../css/debbug.css" rel="stylesheet"> -->
+		<script src="../js/jquery-1.9.1.js"></script>
+		<script src="../js/jquery.collapse.js"></script>
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header role="banner">
+			<section>
+				<div class="logo"></div>
+				<menu>
+					<a href="#">
+						<div class="user"></div>
+						<span>José Miguel</span>
+					</a>
+					<a href="#">
+						<div class="attach"></div>
+						<span>Docs. adjuntos</span>
+					</a>
+				</menu>
+			</section>
+		</header>
+		<!-- /header -->
+
+		<!-- MAIN -->
+		<main>
+
+			<!-- TABLIST -->
+			<div class="tabs">
+
+				<!-- TAB 1 -->
+				<input class="input1" name="tabs" type="radio" id="tab-1" checked="checked">
+				<label class="label" for="tab-1">Promesa de Compra</label>
+				<!-- TAB 2 -->
+				<input class="input2" name="tabs" type="radio" id="tab-2">
+				<label class="label" for="tab-2">Estado de Situación</label>
+
+				<!-- PANEL 1 -->
+				<div class="panel1">
+					<!-- AGREGAR NUEVO PROYECTO -->
+					<article role="document">
+						<header role="document">
+							<form action="" method="post">
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Inmobiliaria</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Nombre Proyecto / Edificio</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="" class="form-control">
+										<label for="">Número</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="" class="form-control">
+										<label for="">Valor en UF</label>
+									</div>
+								</div>
+								<div class="row">
+									<button type="submit" class="btn-flat third-level">Guardar</button>
+								</div>
+							</form>
+							<div class="alert pending"><small>¡Una vez agregado el Proyecto deberás completar tu Estado de Situación para comenzar a negociar tu Crédito Hipotecario!</small></div>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								Condiciones del Crédito:
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="30">30</option>
+									<option value="25">25</option>
+									<option value="20">20</option>
+									<option value="15">15</option>
+								</select>
+								<label for="anos">Años</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<label for="anos">% Pié</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="6">6</option>
+									<option value="5">5</option>
+									<option value="4">4</option>
+									<option value="3">3</option>
+									<option value="2">2</option>
+									<option value="1">1</option>
+								</select>
+								<label for="anos">Meses de gracia</label>
+							</div>
+							<!-- <div class="row">
+								<button type="submit" class="btn-flat first-level" disabled>Pendiente para Negociar</button>
+							</div> -->
+						</form>
+					</article>
+					<!-- /agregar nuevo proyecto -->
+					<hr>
+					<!-- CONTENIDOS PROPIEDADES PROMESADAS -->
+					<article role="document">
+						<header role="document">
+							<span class="nombre-inmobiliaria">Inmobiliaria Brotec</span>
+							<span class="nombre-proyecto">Edificio Holanda</span>
+							<span class="numero-proyecto">Depto 1002</span>
+							<span class="valor-uf">3.750 UF</span>
+							<a href="#"><div class="edit"></div></a>
+							<div class="alert pending"><small>¡Debes completar tu Estado de Situación para comenzar a negociar tu Crédito Hipotecario!</small></div>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								Condiciones del Crédito:
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="30">30</option>
+									<option value="25">25</option>
+									<option value="20">20</option>
+									<option value="15">15</option>
+								</select>
+								<label for="anos">Años</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<label for="anos">% Pié</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="6">6</option>
+									<option value="5">5</option>
+									<option value="4">4</option>
+									<option value="3">3</option>
+									<option value="2">2</option>
+									<option value="1">1</option>
+								</select>
+								<label for="anos">Meses de gracia</label>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn-flat first-level" disabled>Pendiente para Negociar</button>
+							</div>
+						</form>
+					</article>
+					<!-- /contenidos propiedades promesadas -->
+					<hr>
+					<!-- CONTENIDOS PROPIEDADES PROMESADAS -->
+					<article role="document">
+						<header role="document">
+							<span class="nombre-inmobiliaria">Inmobiliaria Brotec</span>
+							<span class="nombre-proyecto">Edificio Holanda</span>
+							<span class="numero-proyecto">Depto 1002</span>
+							<span class="valor-uf">3.750 UF</span>
+							<a href="#"><div class="edit"></div></a>
+							<div class="alert ready"><small>¡Haz completado tu Estado de Situación y estas listo para comenzar a negociar tu Crédito Hipotecario!</small></div>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								Condiciones del Crédito:
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="30">30</option>
+									<option value="25">25</option>
+									<option value="20">20</option>
+									<option value="15">15</option>
+								</select>
+								<label for="anos">Años</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="10">10</option>
+									<option value="20">20</option>
+									<option value="30">30</option>
+								</select>
+								<label for="anos">% Pié</label>
+							</div>
+							<div class="row">
+								<select id="anos" role=listbox class="form-control col-xsmall">
+									<option value="6">6</option>
+									<option value="5">5</option>
+									<option value="4">4</option>
+									<option value="3">3</option>
+									<option value="2">2</option>
+									<option value="1">1</option>
+								</select>
+								<label for="anos">Meses de gracia</label>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn-flat first-level btn-medium">Enviar a Negociar</button>
+							</div>
+						</form>
+					</article>
+					<!-- /contenidos propiedades promesadas -->
+					<hr>
+					<!-- CONTENIDOS PROPIEDADES PROMESADAS -->
+					<article role="document">
+						<header role="document">
+							<span class="nombre-inmobiliaria">Inmobiliaria Brotec</span>
+							<span class="nombre-proyecto">Edificio Holanda</span>
+							<span class="numero-proyecto">Depto 1002</span>
+							<span class="valor-uf">3.750 UF</span>
+							<span>Crédito a 30 Años, con 10% Pié y 6 Meses de gracia.</span>
+							<div class="alert pending"><small>¡Estamos a la espera de comenzar a recibir la mejor tasa para tu Crédito Hipotecario!</small></div>
+							<small>* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat suscipit neque assumenda error, labore repudiandae, nulla, cum doloribus fuga possimus corrupti molestiae!</small>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								<span class="banco"> - - </span>
+							</div>
+							<div class="row">
+								<span class="mark">CAE</span>
+								<span class="cae"> - - </span>
+							</div>
+							<div class="row">
+								<span class="mark">DIV$</span>
+								<span class="dividendo"> - - </span>
+							</div>
+							<div class="row">
+								<span class="mark">Plazo</span>
+								<span class="plazo"> - - </span>
+							</div>
+							<div class="row">
+								<span class="mark">Gracia</span>
+								<span class="gracia"> - - </span>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn-flat first-level btn-medium" disabled>Aceptar Crédito</button>
+								<button type="submit" class="btn-flat third-level btn-small" disabled>Ver todas las tasas recibidas</button>
+							</div>
+						</form>
+					</article>
+					<!-- /contenidos propiedades promesadas -->
+					<hr>
+					<!-- CONTENIDOS PROPIEDADES PROMESADAS -->
+					<article role="document">
+						<header role="document">
+							<span class="nombre-inmobiliaria">Inmobiliaria Brotec</span>
+							<span class="nombre-proyecto">Edificio Holanda</span>
+							<span class="numero-proyecto">Depto 1002</span>
+							<span class="valor-uf">3.750 UF</span>
+							<span>Crédito a 30 Años, con 10% Pié y 6 Meses de gracia.</span>
+							<div class="alert ready"><small>¡Esta es la mejor tasa que te ofrecen las instituciones bancarias para tu Crédito Hipotecario!</small></div>
+							<small>* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repudiandae, nulla, cum doloribus fuga possimus corrupti molestiae! Aliquam tempora debitis.</small>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								<span class="banco">Banco de Crédito e Inversiones</span>
+							</div>
+							<div class="row">
+								<span class="mark">CAE</span>
+								<span class="cae">3.6%</span>
+							</div>
+							<div class="row">
+								<span class="mark">DIV$</span>
+								<span class="dividendo">585.900</span>
+							</div>
+							<div class="row">
+								<span class="mark">Plazo</span>
+								<span class="plazo">30 años</span>
+							</div>
+							<div class="row">
+								<span class="mark">Gracia</span>
+								<span class="gracia">6 meses</span>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn-flat first-level btn-medium">Aceptar Crédito</button>
+								<button type="submit" class="btn-flat third-level btn-small">Ver todas las tasas recibidas</button>
+							</div>
+						</form>
+					</article>
+					<!-- /contenidos propiedades promesadas -->
+					<hr>
+					<!-- CONTENIDOS PROPIEDADES PROMESADAS -->
+					<article role="document">
+						<header role="document">
+							<span class="nombre-inmobiliaria">Inmobiliaria Brotec</span>
+							<span class="nombre-proyecto">Edificio Holanda</span>
+							<span class="numero-proyecto">Depto 1002</span>
+							<span class="valor-uf">3.750 UF</span>
+							<span>Crédito a 30 Años, con 10% Pié y 6 Meses de gracia.</span>
+							<div class="alert ready"><small>¡Esta es la mejor tasa que te ofrecen las instituciones bancarias para tu Crédito Hipotecario!</small></div>
+							<small>* Lorem ipsum dolor sit amet, consectetur adipisicing elit cum doloribus fuga molestiae!</small>
+						</header>
+						<form action="" method="">
+							<div class="row">
+								<span class="banco">Banco de Crédito e Inversiones</span>
+							</div>
+							<div class="row">
+								<span class="mark">CAE</span>
+								<span class="cae">3.6%</span>
+							</div>
+							<div class="row">
+								<span class="mark">DIV$</span>
+								<span class="dividendo">585.900</span>
+							</div>
+							<div class="row">
+								<span class="mark">Plazo</span>
+								<span class="plazo">30 años</span>
+							</div>
+							<div class="row">
+								<span class="mark">Gracia</span>
+								<span class="gracia">6 meses</span>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn-flat first-level btn-medium">Aceptar Crédito</button>
+								<button type="submit" class="btn-flat third-level btn-small">Ver todas las tasas recibidas</button>
+							</div>
+						</form>
+					</article>
+					<article role="grid">
+						<div class="row">
+							<h3>Lorem Ipsum dolor sit amet</h3>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus vero non commodi sunt. Enim perferendis sequi, tempore beatae dolor suscipit ex esse placeat, labore fugit minima, totam quia ratione.</span>
+						</div>
+						<div class="row">
+
+
+							<!-- TABLA RESUMEN -->
+							<table cellpadding="0" cellspacing="0" class="responsive-table">
+								<colgroup>
+									<col style="width:30%">
+									<col style="width:10%">
+									<col style="width:15%">
+									<col style="width:10%">
+									<col style="width:10%">
+									<col style="width:10%">
+									<col style="width:15%">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">Banco</th>
+										<th scope="col">CAE</th>
+										<th scope="col">Dividendo</th>
+										<th scope="col">Plazo</th>
+										<th scope="col">Gracia</th>
+										<th scope="col">Pié</th>
+										<th scope="col"></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+									<tr>
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+									<tr>
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+									<tr class="best">
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+									<tr>
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+									<tr>
+										<td scope="row">Banco Crédito e Inversiones</td>
+										<td data-title="CAE" data-type="">2.8%</td>
+										<td data-title="Dividendo" data-type="">$500.000</td>
+										<td data-title="Plazo" data-type="">20 años</td>
+										<td data-title="Gracia" data-type="">6 meses</td>
+										<td data-title="Pié" data-type="">10%</td>
+										<td data-title="" data-type=""><button type="submit" class="btn-flat third-level btn-xsmall">Aceptar Crédito</button></td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- /tabla resumen -->
+						</div>
+					</article>
+					<!-- /contenidos propiedades promesadas -->
+				</div>
+				<!-- /panel1 -->
+
+
+
+
+
+
+				<!-- PANEL 2 -->
+				<div class="panel2">
+					<!-- ESTADO DE SITUACION -->
+
+						<!-- PERSONALES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Datos Personales</h2>
+								<div class="row">
+									<div class="column col-medium">
+										<input type="text" id="rut" placeholder="12345678-5" class="form-control">
+										<label for="rut">RUT</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="name" class="form-control">
+										<label for="name">Nombres</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="last_name" class="form-control">
+										<label for="last_name">Apellido Paterno</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="mother_name" class="form-control">
+										<label for="mother_name">Apellido Materno</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">Fecha de nacimiento</div>
+								</div>
+								<div class="row">
+									<div class="column col-small">
+										<input type="text" id="day" placeholder="DD" class="form-control">
+										<label for="day">Día</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="month" placeholder="MM" class="form-control">
+										<label for="month">Mes</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="year" placeholder="AAAA" class="form-control">
+										<label for="year">Año</label>
+									</div>
+									<div class="column col-large">
+										<select id="gender" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Femenino">Femenino</option>
+											<option value="Masculino">Masculino</option>
+											<option value="Transgénero">Transgénero</option>
+										</select>
+										<label for="gender">Género</label>
+									</div>
+									<div class="column col-large">
+										<select id="nationality" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+										</select>
+										<label for="nationality">Nacionalidad</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<select id="marital_status" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Casado">Casado</option>
+											<option value="Soltero">Soltero</option>
+											<option value="Viudo">Viudo</option>
+											<option value="Separado">Separado</option>
+											<option value="Acuerdo de unión civil">Acuerdo de unión civil</option>
+										</select>
+										<label for="marital_status">Estado civil</label>
+									</div>
+									<div class="column col-large">
+										<select id="marital_regime" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Con separación de bienes">Con separación de bienes</option>
+											<option value="Sociedad conyugal">Sociedad conyugal</option>
+											<option value="Participación en gananciales">Participación en gananciales</option>
+											<option value="Comunidad de bienes">Comunidad de bienes</option>
+										</select>
+										<label for="marital_regime">Régimen</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="phone1" placeholder="56991234567" class="form-control">
+										<label for="phone1">Teléfono móvil</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="" placeholder="info@hipotecariofacil.com">
+										<label for="email">Correo electrónico</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<select id="educational_level" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Educ media incompleta">Educ media incompleta</option>
+											<option value="Educ media completa">Educ media completa</option>
+											<option value="Técnico">Técnico</option>
+											<option value="Universitaria completa">Universitaria completa</option>
+											<option value="Universitaria incompleta">Universitaria incompleta</option>
+											<option value="Postgrado">Postgrado</option>
+										</select>
+										<label for="educational_level">Nivel educacional</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="degree">
+										<label for="degree">Título / Profesión</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="college">
+										<label for="college">Institución</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">Dirección correspondencia</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="street_name" class="form-control">
+										<label for="street_name">Calle</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="street_number" class="form-control">
+										<label for="street_number">Número</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="home_number" class="form-control">
+										<label for="home_number">Depto</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="city_2" class="form-control">
+										<label for="city_2">Comuna</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="city" class="form-control">
+										<label for="city">Ciudad</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="state" class="form-control">
+										<label for="state">Región</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="country" class="form-control">
+										<label for="country">País</label>
+									</div>
+								</div>
+								<div class="row controls">
+									<div class="alert pending"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iusto, enim accusantium. Fugiat omnis tempora est nam autem eius quidem sit cum, quae facere ullam repudiandae sunt magni aspernatur amet.</small></div>
+									<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+								</div>
+
+							</form>
+						</article>
+						<!-- /personales -->
+						<hr>
+						<!-- LABORALES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Datos Laborales</h2>
+								<div class="row">
+									<div class="column col-large">
+										<select id="job_type" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Dependiente con contrato fijo">Dependiente con contrato fijo</option>
+											<option value="Dependiente con contrato indefinido">Dependiente con contrato indefinido</option>
+											<option value="Independiente">Independiente</option>
+											<option value="Pensionado">Pensionado</option>
+											<option value="Desempleado">Desempleado</option>
+										</select>
+										<label for="job_type">Tipo de empleo</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="degree">
+										<label for="degree">Jubilación percibida</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="employer_name" class="form-control">
+										<label for="employer_name">Nombre empleador</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="employer_id" class="form-control">
+										<label for="employer_id">RUT empleador</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="employer_address" class="form-control">
+										<label for="employer_address">Dirección empleador</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="industry" class="form-control">
+										<label for="industry">Giro / Actividad</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="job_title" class="form-control">
+										<label for="job_title">Cargo</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="job_senority" class="form-control">
+										<label for="job_senority">Antiguedad laboral</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column">Fecha de ingreso a la empresa</div>
+								</div>
+								<div class="row">
+									<div class="column col-small">
+										<input type="text" id="job_day" placeholder="DD" class="form-control">
+										<label for="job_day">Día</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="job_month" placeholder="MM" class="form-control">
+										<label for="job_month">Mes</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="job_year" placeholder="AAAA" class="form-control">
+										<label for="job_year">Año</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="net_income" class="form-control">
+										<label for="net_income">Renta líquida mensual</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Bono variable anualizado</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="previous_employer" class="form-control">
+										<label for="previous_employer">Empleador anterior</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="previous_job_title" class="form-control">
+										<label for="previous_job_title">Cargo anterior</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="chief_name" class="form-control">
+										<label for="chief_name">Nombre jefe directo</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="chief_job_title" class="form-control">
+										<label for="chief_job_title">Cargo jefe directo</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="previous_net_income" class="form-control">
+										<label for="previous_net_income">Renta líquida anterior</label>
+									</div>
+								</div>
+								<div class="row controls">
+									<div class="alert pending"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iusto, enim accusantium. Fugiat omnis tempora est nam autem eius quidem sit cum, quae facere ullam repudiandae sunt magni aspernatur amet.</small></div>
+									<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+								</div>
+
+							</form>
+						</article>
+						<!-- /laborales -->
+						<hr>
+						<!-- CONYUGE -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Conyuge</h2>
+								<div class="row">
+									<div class="column col-medium">
+										<input type="text" id="rut_mate" placeholder="12345678-5" class="form-control">
+										<label for="rut_mate">RUT</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="name_mate" class="form-control">
+										<label for="name_mate">Nombres</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="last_name_mate" class="form-control">
+										<label for="last_name_mate">Apellido Paterno</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="mother_name_mate" class="form-control">
+										<label for="mother_name_mate">Apellido Materno</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column">Fecha de nacimiento</div>
+								</div>
+								<div class="row">
+									<div class="column col-small">
+										<input type="text" id="day_mate" placeholder="DD" class="form-control">
+										<label for="day_mate">Día</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="month_mate" placeholder="MM" class="form-control">
+										<label for="month_mate">Mes</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="year_mate" placeholder="AAAA" class="form-control">
+										<label for="year_mate">Año</label>
+									</div>
+									<div class="column col-large">
+										<select id="gender_mate" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+										</select>
+										<label for="gender_mate">Genero</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="nationality" class="form-control">
+										<label for="nationality">Nacionalidad</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="phone2" placeholder="56991234567" class="form-control">
+										<label for="phone2">Teléfono</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="email">
+										<label for="email">Correo electrónico</label>
+									</div>
+									<div class="column col-large">
+										<select id="educational_level_mate" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Educ media incompleta">Educ media incompleta</option>
+											<option value="Educ media completa">Educ media completa</option>
+											<option value="Técnico">Técnico</option>
+											<option value="Universitaria completa">Universitaria completa</option>
+											<option value="Universitaria incompleta">Universitaria incompleta</option>
+											<option value="Postgrado">Postgrado</option>
+										</select>
+										<label for="educational_level_mate">Nivel educacional</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" class="form-control" id="degree">
+										<label for="degree">Título / Profesión</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<select id="activity_mate" role=listbox class="form-control">
+											<option value="selecciona">Selecciona</option>
+											<option value="Dependiente">Dependiente</option>
+											<option value="Independiente">Independiente</option>
+											<option value="Pensionado">Pensionado</option>
+											<option value="No trabaja">No trabaja</option>
+										</select>
+										<label for="activity_mate">Tipo actividad</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="email_mate" class="form-control">
+										<label for="email_mate">Actividad / Cargo</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Renta líquida</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column">Fecha de inicio de actividades independientes</div>
+								</div>
+								<div class="row">
+									<div class="column col-small">
+										<input type="text" id="indep_day_mate" placeholder="DD" class="form-control">
+										<label for="job_day_mate">Día</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="indep_month_mate" placeholder="MM" class="form-control">
+										<label for="job_month_mate">Mes</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="indep_year_mate" placeholder="AAAA" class="form-control">
+										<label for="job_year_mate">Año</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">Fecha de ingreso al cargo</div>
+								</div>
+								<div class="row">
+									<div class="column col-small">
+										<input type="text" id="job_day_mate" placeholder="DD" class="form-control">
+										<label for="job_day_mate">Día</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="job_month_mate" placeholder="MM" class="form-control">
+										<label for="job_month_mate">Mes</label>
+									</div>
+									<div class="column col-small">
+										<input type="text" id="job_year_mate" placeholder="AAAA" class="form-control">
+										<label for="job_year_mate">Año</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Empleador</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">RUT empleador</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="industry_mate" class="form-control">
+										<label for="industry_mate">Giro / Actividad de la empresa</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Dirección de la empresa</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Comuna</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Ciudad</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="" class="form-control">
+										<label for="">Región</label>
+									</div>
+									<div class="column col-large">
+										<input type="text" id="phone3" placeholder="56991234567" class="form-control">
+										<label for="phone3">Teléfono</label>
+									</div>
+								</div>
+								<div class="row controls">
+									<div class="alert ready"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iusto, enim accusantium. Fugiat omnis tempora est nam autem eius quidem sit cum, quae facere ullam repudiandae sunt magni aspernatur amet.</small></div>
+									<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+								</div>
+
+							</form>
+						</article>
+						<!-- /conyuge -->
+						<hr>
+						<!-- CARGAS FAMILIARES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Cargas Familiares</h2>
+								<!-- CARGA AGREGADA -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Nombre</th>
+												<th scope="col">Parentesco</th>
+												<th scope="col">Edad</th>
+												<th scope="col">Género</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">Sacarías La Fuente De La Plaza</td>
+												<td data-title="Parentesco" data-type="">Hijo</td>
+												<td data-title="Edad" data-type="">100</td>
+												<td data-title="Género" data-type="">Másculino</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /carga agregada -->
+								<!-- COLAPSABLE CARGA FAMILIAR -->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Carga</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Nombre</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Parentesco</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="" class="form-control">
+												<label for="">Edad</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="column col-large">Fecha de nacimiento</div>
+										</div>
+										<div class="row">
+											<div class="column col-small">
+												<input type="text" id="" placeholder="DD" class="form-control">
+												<label for="">Día</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="" placeholder="MM" class="form-control">
+												<label for="">Mes</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="" placeholder="AAAA" class="form-control">
+												<label for="">Año</label>
+											</div>
+											<div class="column col-large">
+												<select id="" role=listbox class="form-control">
+													<option value="selecciona">Selecciona</option>
+												</select>
+												<label for="">Genero</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Actividad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Ingresos</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Monto de la pensión</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+					        </div>
+					      </div>
+								<!-- /custom-show-hide -->
+							</form>
+						</article>
+						<!-- /cargas -->
+						<hr>
+						<!-- PROPIEDADES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Propiedades</h2>
+								<!-- PROPIEDAD AGREGADA -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Calle</th>
+												<th scope="col">Número</th>
+												<th scope="col">Número de Rol</th>
+												<th scope="col">Tipo de propiedad</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">Lorem Ipsum</td>
+												<td data-title="Número" data-type="">0000</td>
+												<td data-title="Número de Rol" data-type="">000-00</td>
+												<td data-title="Tipo propiedad" data-type="">Departamento</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /propiedad agregada -->
+								<!-- COLAPSABLE PROPIEDADES-->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Propiedad</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<select id="home_ownership" role=listbox class="form-control">
+													<option value="selecciona">Selecciona</option>
+												</select>
+												<label for="home_ownership">Tipo de vivienda</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="home_ownership" class="form-control">
+												<label for="home_ownership">Costo mensual</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="street_name" class="form-control">
+												<label for="street_name">Calle</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="street_number" class="form-control">
+												<label for="street_number">Número</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="home_number" class="form-control">
+												<label for="home_number">Depto</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="city_2" class="form-control">
+												<label for="city_2">Comuna</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="city" class="form-control">
+												<label for="city">Ciudad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="state" class="form-control">
+												<label for="state">Región</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="country" class="form-control">
+												<label for="country">País</label>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="property_id" placeholder="000-00" class="form-control">
+												<label for="property_id">Número de Rol</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_type" class="form-control">
+												<label for="property_type">Tipo de propiedad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_value" class="form-control">
+												<label for="property_value">Valor de la propiedad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_fiscal_value" class="form-control">
+												<label for="property_fiscal_value">Avalúo fiscal</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_perc_ownership" class="form-control">
+												<label for="property_perc_ownership">Porcentaje de propiedad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_surface_sqt" class="form-control">
+												<label for="property_surface_sqt">Superficie</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_address" class="form-control">
+												<label for="property_address">Dirección</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_city_2" class="form-control">
+												<label for="property_city_2">Comuna</label>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="property_mortgagor" class="form-control">
+												<label for="property_mortgagor">Hipoteca a favor de</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="property_insurance_flg" class="form-control">
+												<label for="property_insurance_flg">Seguro</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="column col-large">Fecha de último dividendo</div>
+										</div>
+										<div class="row">
+											<div class="column col-small">
+												<input type="text" id="property_last_payment_day" placeholder="DD" class="form-control">
+												<label for="property_last_payment_day">Día</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="property_last_payment_month" placeholder="MM" class="form-control">
+												<label for="property_last_payment_month">Mes</label>
+											</div>
+											<div class="column col-small">
+												<input type="text" id="property_last_payment_year" placeholder="AAAA" class="form-control">
+												<label for="property_last_payment_year">Año</label>
+											</div>
+											<div class="column col-medium">
+												<input type="text" id="" class="form-control col-small">
+												<label for="">Cuotas pagadas</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Saldo deuda</label>
+											</div>
+											<div class="column col-medium">
+												<input type="text" id="" class="form-control col-small">
+												<label for="">Cuotas totales</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Pago mensual</label>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="property_rental_income" class="form-control">
+												<label for="property_rental_income">Arriendo obtenido</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+									</div>
+								</div>
+								<!-- /colapsable propiedades -->
+							</form>
+						</article>
+						<!-- /propiedades -->
+						<hr>
+						<!-- VEHICULOS -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Vehículos</h2>
+								<!-- VEHICULO AGREGADO -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Patente</th>
+												<th scope="col">Marca</th>
+												<th scope="col">Modelo</th>
+												<th scope="col">Año</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">AABB11</td>
+												<td data-title="Marca" data-type="">Audi</td>
+												<td data-title="Modelo" data-type="">A50</td>
+												<td data-title="Año" data-type="">2023</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /vehiculo agregado -->
+								<!-- COLAPSABLE VEHICULOS -->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Vehículo</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="vehicle_id" placeholder="AABB11" class="form-control">
+												<label for="vehicle_id">Patente</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_type" class="form-control">
+												<label for="vehicle_type">Tipo de vehículo</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_brand" class="form-control">
+												<label for="vehicle_brand">Marca</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_model" class="form-control">
+												<label for="vehicle_model">Modelo</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_year" class="form-control">
+												<label for="vehicle_year">Año</label>
+											</div>
+											<div class="column col-large">
+												<div class="file-upload-wrapper" data-text="Seleccionar archivo">
+												  <input name="file-upload-field" type="file" class="file-upload-field" value="" id="vehicle_doc">
+												</div>
+												<label for="vehicle_doc">Padrón</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_value" class="form-control">
+												<label for="vehicle_value">Valor comercial</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_insurance_flg" class="form-control">
+												<label for="vehicle_insurance_flg">Seguro</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="vehicle_mortgagor_flg" class="form-control">
+												<label for="vehicle_mortgagor_flg">Institución</label>
+											</div>
+										</div>
+										<br>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="" class="form-control col-small">
+												<label for="">Cuotas por pagar</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Pago mensual</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+									</div>
+								</div>
+								<!-- /colapsable vehiculos-->
+							</form>
+						</article>
+						<!-- /vehiculos -->
+						<hr>
+						<!-- INVERSIONES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Inversiones</h2>
+								<!-- INVERSION AGREGADA -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Tipo de inversión</th>
+												<th scope="col">Institución</th>
+												<th scope="col">Prenda</th>
+												<th scope="col">Valor</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">Lorem Ipsum</td>
+												<td data-title="Institución" data-type="">Lorem Ipsum</td>
+												<td data-title="Prenda" data-type="">Lorem Ipsum</td>
+												<td data-title="Valor" data-type="">000000000000</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /inversion agregada -->
+								<!-- COLAPSABLE INVERSIONES -->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Inversión</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<select id="investment_type" role=listbox class="form-control">
+													<option value="selecciona">Selecciona</option>
+													<option value="Depositio a plazo">Depositio a plazo</option>
+													<option value="Fondos mutuos">Fondos mutuos</option>
+													<option value="Ahorro">Ahorro</option>
+													<option value="Acciones">Acciones</option>
+													<option value="Otros">Otros</option>
+												</select>
+												<label for="investment_type">Tipo de inversión</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="investment_issuer" class="form-control">
+												<label for="investment_issuer">Institución emisora</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="investment_mortgagor_flg" class="form-control">
+												<label for="investment_mortgagor_flg">Prenda</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="investment_value" class="form-control">
+												<label for="investment_value">Valor comercial</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+									</div>
+								</div>
+								<!-- /colapsable inversiones -->
+							</form>
+						</article>
+						<!-- /inversiones -->
+						<hr>
+						<!-- SOCIEDADES -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Sociedades</h2>
+								<!-- SOCIEDAD AGREGADA -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Nombre sociedad</th>
+												<th scope="col">RUT</th>
+												<th scope="col">Giro</th>
+												<th scope="col">Año inicio</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">Lorem Ipsum S.A.</td>
+												<td data-title="RUT" data-type="">12345678-5</td>
+												<td data-title="Giro" data-type="">Lorem Ipsum</td>
+												<td data-title="Año inicio" data-type="">2018</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /sociedad agregada -->
+								<!-- COLAPSABLE SOCIEDADES -->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Sociedad</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="company_name" class="form-control">
+												<label for="company_name">Nombre sociedad</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_id" placeholder="12345678-5" class="form-control">
+												<label for="company_id">RUT</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_industry" class="form-control">
+												<label for="company_industry">Giro</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_perc_ownership" class="form-control">
+												<label for="company_perc_ownership">Porcentaje participación</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_value" class="form-control">
+												<label for="company_value">Valor inversión</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_start_dt" class="form-control">
+												<label for="company_start_dt">Año inicio</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_notaria" class="form-control">
+												<label for="company_notaria">Notaría</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="company_net_worth" class="form-control">
+												<label for="company_net_worth">Patrimonio</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+									</div>
+								</div>
+								<!-- /colapsable sociedades -->
+							</form>
+						</article>
+						<!-- /sociedades -->
+						<hr>
+						<!-- BANCA -->
+						<article role="form">
+							<form action="" method="post">
+								<h2>Banca</h2>
+								<!-- BANCA AGREGADA -->
+								<div class="row">
+									<!-- TABLA RESUMEN -->
+									<table cellpadding="0" cellspacing="0" class="responsive-table">
+										<thead>
+											<tr>
+												<th scope="col">Banco / Institución</th>
+												<th scope="col">Producto</th>
+												<th scope="col">Vencimiento</th>
+												<th scope="col">Saldo deuda</th>
+												<th scope="col">Editar</th>
+												<th scope="col">Eliminar</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row">Banco Crédito e Inversiones</td>
+												<td data-title="Producto" data-type="">Crédito de consumo</td>
+												<td data-title="Vencimiento" data-type="">31/11/2019</td>
+												<td data-title="Saldo deuda" data-type="">00.000.000</td>
+												<td data-title="Editar" data-type=""><a href="#"><div class="edit"></div></a></td>
+												<td data-title="Eliminar" data-type=""><a href="#"><div class="delete"></div></a></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /tabla resumen -->
+								</div>
+								<!-- /banca agregada -->
+								<!-- COLAPSABLE BANCA -->
+								<div class="custom-show-hide">
+					        <span class="btn-add">Agregar Banca</span>
+									<div class="collapse">
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="bank_name" class="form-control">
+												<label for="bank_name">Banco / Institución</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="bank_office" class="form-control">
+												<label for="bank_office">Sucursal</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="bank_account_number" class="form-control">
+												<label for="bank_account_number">Número de cuenta</label>
+											</div>
+										</div>
+										<br>
+										<!-- PRESTAMOS -->
+										<h3>Crédito de Consumo</h3>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Tipo garantía</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Vencimiento</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control col-small">
+												<label for="">Cuotas pagadas</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Pago mensual</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control col-small">
+												<label for="">Cuotas totales</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Saldo deuda</label>
+											</div>
+										</div>
+										<!-- /prestamos -->
+										<br>
+										<!-- CREDITOS -->
+										<h3>Tarjeta de Crédito</h3>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="credit_used_quota" class="form-control">
+												<label for="credit_used_quota">Cupo utilizado</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_line_amount" class="form-control">
+												<label for="credit_line_amount">Cupo línea</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_monthly_payment" class="form-control">
+												<label for="credit_monthly_payment">Pago mensual</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_expire_dt" class="form-control">
+												<label for="credit_expire_dt">Vencimiento</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_currency" class="form-control">
+												<label for="credit_currency">Moneda</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_card_type" class="form-control">
+												<label for="credit_card_type">Tipo tarjeta</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="credit_payments_done" class="form-control">
+												<label for="credit_payments_done">Cuotas pagadas</label>
+											</div>
+										</div>
+										<br>
+										<h3>Línea de Crédito</h3>
+										<div class="row">
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Cupo línea de crédito</label>
+											</div>
+											<div class="column col-large">
+												<input type="text" id="" class="form-control">
+												<label for="">Monto utilizado</label>
+											</div>
+										</div>
+										<div class="row controls">
+											<button type="submit" class="btn-flat first-level btn-large">Guardar</button>
+										</div>
+									</div>
+								</div>
+								<!-- /colapsable banca -->
+							</form>
+							<!-- /creditos -->
+						</article>
+						<!-- /banca -->
+
+					<!-- /estado de situacion -->
+				</div>
+				<!-- /panel 2 -->
+
+			</div>
+			<!-- /tablist -->
+
+		</main>
+		<!-- /main -->
+
+		<!-- FOOTER -->
+		<footer role="contentinfo">
+			<section>
+				<p>HipotecarioFacil.com © 2017 | Derechos reservados</p>
+				<ul>
+					<li><a href="#">Políticas de Privacidad y Seguridad</a></li>
+					<li><a href="#">Condiciones del Servicio</a></li>
+					<li><a href="#">Políticas de Créditos Hipotecarios</a></li>
+					<li><a href="#">Simuladores</a></li>
+				</ul>
+			</section>
+		</footer>
+		<!-- /footer -->
+
+
+
+
+	</body>
+
+	<script
+	  src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+	</script>
+	<!-- script para el boton de subir archivos -->
+	<script>
+		$("form").on("change", ".file-upload-field", function(){
+			$(this).parent(".file-upload-wrapper").attr("data-text",
+			$(this).val().replace(/.*(\/|\\)/, '') );
+		});
+	</script>
+	<!-- script para colapsables -->
+	<script>
+		new jQueryCollapse($(".custom-show-hide"), {
+			open: function() {
+				this.slideDown(300);
+			},
+			close: function() {
+				this.slideUp(300);
+			}
+		});
+	</script>
+</html>
