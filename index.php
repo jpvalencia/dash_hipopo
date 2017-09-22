@@ -1,2 +1,2 @@
-<?php header( 'Location: /html/dashboard.html' ) ;  ?>
+<?php header( 'Location: /html/splashpage.html' ) ;  ?>
 
